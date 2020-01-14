@@ -1,0 +1,39 @@
+{
+  "name": "markdown-as-a-service",
+  "version": "1.0.0",
+  "description": "Markdown as a service which will get the markdown as a string and return the HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robipop22/markdown-as-a-service.git"
+  },
+  "keywords": [
+    "markdown",
+    "zeit",
+    "now",
+    "maas",
+    "nodejs"
+  ],
+  "engines": {
+    "node": "12.x"
+  },
+  "author": "robipop22",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robipop22/markdown-as-a-service/issues"
+  },
+  "homepage": "https://github.com/robipop22/markdown-as-a-service#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "marked": "^0.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "prettier": "^1.19.1"
+  }
+}
